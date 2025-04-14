@@ -24157,6 +24157,10 @@ components:
           tokenUrl: /oidc/token
           scopes:
             openid: openid
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
     ztSession:
       type: apiKey
       description: An API Key that is provided post authentication
